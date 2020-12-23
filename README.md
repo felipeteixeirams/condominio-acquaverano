@@ -1,5 +1,5 @@
-# Página "Em construção" condomínio Acquaverano
-Projeto simples de página em construção, porém responsivo e adaptativo, usando HTML e CSS puro.
+<h1>Página "Site em construção"💥🔨👷‍♂️</h1>
+Proposta: página única, responsivo, utilizando Padrões Web apenas.
 
-# Para visualiza-lo
-Execute o arquivo Index.html ou execute o projeto em ferramenta de Live Preview de sua preferência.
+<h2>Para visualizar 🔍</h2>
+Faça o download do repositório e execute o arquivo <b>Index.html</b>.
