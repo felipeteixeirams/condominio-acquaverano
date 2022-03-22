@@ -1,104 +1,45 @@
-/* ********************************************************
-REGRAS DEFAULT */
-body {
-    font-family: "Segoe UI", Helvetica, sans-serif;
-    font-size: 15px;
-    line-height: 1.3em;
-}
-
-figurecaption {
-    display: none;
-}
-
-a {
-    text-decoration: none;
-}
-
-address {
-    font-style: normal
-}
-
-footer, footer a{
-    color: #888888;
-    transition: 1s;
-}
-
-footer {
-    padding:10px 25px 0px 25px;
-    margin-top: 10px;
-    border-top: 2px solid #eeeeee;
-}
-
-iframe {
-    box-shadow: 6px 5px 5px #a8a7a7;
-    border-radius: 5px
-}
-
-div.links--social li {
-    margin-left: 5px;
-    margin-right: 5px
-}
-
-div.links--social li{
-    width: 40px
-}
-
-div.links--social a, img {
-    width: 100%;
-    height: 100%;
-}
-
-ul li{
-    display: inline-block;
-    width: 60px;
-    height: auto;
-}
-
-em {
-    font-style: normal;
-}
-
-div.links--social img {
-    width: 100%;
-    height: auto;
-}
 
 
-/* ******************************************************
-TRANSIÇÕES E ANIMAÇÕES */
+/**********************
+* Logo
+*/
+.logo img{
+    width: 17rem;
 
-a:hover {
-    transition: 1s;
-    color: red
-}
-
-
-/* ******************************************************
-ELEMENTOS ESPECIFICOS */
-
-#logo {
-    width: 170px;
     transition: 0.5s;
-    vertical-align: middle;
 }
 
+/**********************
+* Title
+*/
 .titulo {
     font-style: normal;
     text-decoration: none;
     font-weight: 600;
     font-size: 35px;
     line-height: 1.4;
-    color: rgb(20, 78, 75);
+    color: var(--ciano);
     transition: 0.5s
 }
 
+/**********************
+* Map
+*/
 .mapa {
     width: 800px;
     height: 30vh;
 }
 
+/**********************
+* Socials links
+*/
+
+
+
+
+
 .section {
-    color: #333333;
+    color: var(--grey-dark);
     font-size: 1.2em
 }
 
@@ -113,60 +54,64 @@ div.copyright p {
 }
 
 
-/* ***********************************************************
-ELEMENTOS ESTRUTURAIS */
 
-.center {
-    margin-left: auto;
-    margin-right: auto;
-    vertical-align: middle;
-    align-content: center;
-    text-align: center;
+footer, footer a{
+    color: var(--grey);
+    transition: 1s;
 }
 
-.text-center {
-    text-align: center
-}
-
-.mt-10 {
+footer {
+    padding:10px 25px 0px 25px;
     margin-top: 10px;
+    border-top: 2px solid var(--grey-light);
 }
 
-.mb-10 {
-    margin-bottom: 10px;
+iframe {
+    box-shadow: 6px 5px 5px var(--grey);
+    border-radius: 5px
 }
 
-.pt-10 {
-    padding-top: 10px;
+div.links-social li {
+    margin-left: 5px;
+    margin-right: 5px
 }
 
-.pb-10 {
-    padding-bottom: 10px;
+div.links-social li,
+div.links-social ul{
+    display: flex;
+    align-items: center;
+    width: 40px
 }
 
-.ml-10 {
-    margin-left: 10px;
+div.links-social a, img {
+    width: 100%;
+    height: 100%;
 }
 
-.mr-10 {
-    margin-right: 10px;
+em {
+    font-style: normal;
 }
 
-.pl-10 {
-    padding-left: 10px;
+div.links-social img {
+    width: 100%;
+    height: auto;
 }
 
-.pr-10 {
-    padding-right: 10px;
-}
 
-.pt-10 {
-    padding-top: 10px
-}
 
-.pb-10 {
-    padding-bottom: 10px;
-}
+
+/* ******************************************************
+TRANSIÇÕES E ANIMAÇÕES */
+
+
+
+
+/* ******************************************************
+ELEMENTOS ESPECIFICOS */
+
+
+
+
 
 
 

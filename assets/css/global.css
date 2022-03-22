@@ -1,0 +1,110 @@
+html {
+    --black: #000;
+    --white: #fff;
+    --red: #ff0202;
+    --ciano: #144e4b;
+
+    --grey: #888888;
+    --grey-dark: #333333;
+    --grey-light: #eeeeee;
+
+    font-size: 62.5%
+        /* 10px */
+    ;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    background: var(--white);
+}
+
+body,
+button,
+input,
+textarea {
+    font-size: clamp(16px, 1.6rem, 2vw);
+    line-height: 1.3em;
+
+    font-family: "Segoe UI", Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    transition: 1s;
+    color: var(--red)
+}
+
+address {
+    font-style: normal
+}
+
+
+/* Elementos estruturais */
+
+.sr-only {
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    align-content: center;
+    text-align: center;
+}
+
+.text-center {
+    text-align: center
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.pl-10 {
+    padding-left: 10px;
+}
+
+.pr-10 {
+    padding-right: 10px;
+}
+
+.pt-10 {
+    padding-top: 10px
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
