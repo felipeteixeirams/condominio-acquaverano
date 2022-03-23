@@ -1,18 +1,33 @@
+/**********************
+* All Content
+*/
 
+.container {
+    width: 100%;
+    margin: 0;
+}
+
+section.content{
+    color: var(--grey-dark);
+    font-size: 1.2em;
+    text-align: center;
+}
 
 /**********************
 * Logo
 */
 .logo img{
     width: 17rem;
-
-    transition: 0.5s;
 }
 
 /**********************
 * Title
 */
-.titulo {
+.contact address{
+    font-style: normal;
+}
+
+a#titulo {
     font-style: normal;
     text-decoration: none;
     font-weight: 600;
@@ -25,7 +40,7 @@
 /**********************
 * Map
 */
-.mapa {
+.map {
     width: 800px;
     height: 30vh;
 }
@@ -33,57 +48,19 @@
 /**********************
 * Socials links
 */
-
-
-
-
-
-.section {
-    color: var(--grey-dark);
-    font-size: 1.2em
-}
-
-.contato {
-    max-width: 600px;
-    margin: auto
-}
-
-div.copyright p {
-    display: inline-block;
-    max-width: 600px;
-}
-
-
-
-footer, footer a{
-    color: var(--grey);
-    transition: 1s;
-}
-
-footer {
-    padding:10px 25px 0px 25px;
-    margin-top: 10px;
-    border-top: 2px solid var(--grey-light);
-}
-
-iframe {
-    box-shadow: 6px 5px 5px var(--grey);
-    border-radius: 5px
-}
-
-div.links-social li {
+div.social-links li {
     margin-left: 5px;
     margin-right: 5px
 }
 
-div.links-social li,
-div.links-social ul{
+div.social-links li,
+div.social-links ul{
     display: flex;
     align-items: center;
     width: 40px
 }
 
-div.links-social a, img {
+div.social-links a, img {
     width: 100%;
     height: 100%;
 }
@@ -92,179 +69,29 @@ em {
     font-style: normal;
 }
 
-div.links-social img {
+div.social-links img {
     width: 100%;
     height: auto;
 }
 
 
+/**********************
+* Footer
+*/
 
+footer {
+    margin: 30px 25px 0px 25px;
 
-/* ******************************************************
-TRANSIÇÕES E ANIMAÇÕES */
-
-
-
-
-/* ******************************************************
-ELEMENTOS ESPECIFICOS */
-
-
-
-
-
-
-
-/* **************************************************************** */
-/*MEDIUM LAYOUT 1280px*/
-@media only screen and (min-width: 992px) and (max-width: 1200px){
-
-    .header--logo {
-        height: 170px
-    }
-
-    div.links--social li {
-        width: 40px;
-    }
-
-    .mapa {
-        display: inline-block;
-        width: 700px;
-        height: 30vh;
-        margin-left: auto;
-        margin-right: auto;
-    }
+    border-top: 2px solid var(--grey-light);
 }
 
-/*TABLET LAYOUT 768px*/
-@media (min-width: 768px) and (max-width: 991px){
-    
-    body {
-        font-size: 30px;
-        line-height: 1.2em;
-    }
 
-    .titulo {
-        font-size: 55px;
-    }
-
-    #logo {
-        width: 30%;
-    }
-
-    .mapa {
-        display: inline-block;
-        width: 100%;
-        height: 38vh;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 30px;
-    }
-
-    div.links--social li{
-        width: 10%;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-
-    div.copyright p {
-        width: 100%;
-    }
+footer .copyright,
+footer .copyright a{
+    color: var(--grey);
 }
 
-/*WIDE MODILE 480px*/
-@media only screen and (min-width: 480px) and (max-width: 767px){
-
-    body {
-        font-size: 18px;
-    }
-
-    .titulo {
-        font-size: 40px
-    }
-
-    #logo {
-        width: 30%;
-    }
-
-    .mapa {
-        display: inline-block;
-        min-width: 100%;
-        max-height: 30vh;
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    div.links--social li{
-        width: 60px
-    }
-    
-    div.copyright p {
-        width: 100%;
-    }
-}
-
-/*EXTRA SMALL DEVICES PHONES*/
-@media (min-width: 478px) and (max-width: 640px){
-
-    body {
-        font-size: 1.4em;
-    }
-    
-    .titulo {
-        font-size: 40px
-    }
-
-    #logo {
-        width: 30%;
-    }
-
-    .mapa {
-        display: inline-block;
-        max-width: 100%;
-        min-height: 30vh;
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    div.links--social li{
-        width: 60px
-    }
-    
-    div.copyright p {
-        width: 100%;
-    }
-}
-
-/*IPHONE RETINA*/
-@media (min-width : 320px) and (max-width: 478px){
-
-    body {
-        font-size: 1.4em;
-        padding: 0;
-    }
-
-    .titulo {
-        font-size: 40px
-    }
-
-    #logo {
-        width: 30%;
-    }
-
-    .mapa {
-        display: inline-block;
-        max-width: 100%;
-        height: 30vh;
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    div.links--social li{
-        width: 60px
-    }
-    
-    div.copyright p {
-        width: 100%;
-    }
+iframe {
+    box-shadow: 6px 5px 5px var(--grey);
+    border-radius: 5px
 }

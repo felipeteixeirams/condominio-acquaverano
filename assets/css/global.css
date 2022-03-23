@@ -33,18 +33,6 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    transition: 1s;
-    color: var(--red)
-}
-
-address {
-    font-style: normal
-}
-
-
-/* Elementos estruturais */
-
 .sr-only {
     position: absolute;
     height: 1px;
@@ -55,56 +43,4 @@ address {
     clip-path: rect(0, 0, 0, 0);
     white-space: nowrap;
     border-width: 0;
-}
-
-.center {
-    margin-left: auto;
-    margin-right: auto;
-    vertical-align: middle;
-    align-content: center;
-    text-align: center;
-}
-
-.text-center {
-    text-align: center
-}
-
-.mt-10 {
-    margin-top: 10px;
-}
-
-.mb-10 {
-    margin-bottom: 10px;
-}
-
-.pt-10 {
-    padding-top: 10px;
-}
-
-.pb-10 {
-    padding-bottom: 10px;
-}
-
-.ml-10 {
-    margin-left: 10px;
-}
-
-.mr-10 {
-    margin-right: 10px;
-}
-
-.pl-10 {
-    padding-left: 10px;
-}
-
-.pr-10 {
-    padding-right: 10px;
-}
-
-.pt-10 {
-    padding-top: 10px
-}
-
-.pb-10 {
-    padding-bottom: 10px;
 }
