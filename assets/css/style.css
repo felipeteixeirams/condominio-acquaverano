@@ -7,7 +7,7 @@
     margin: 0;
 }
 
-section.content{
+main.content{
     color: var(--grey-dark);
     font-size: 1.2em;
     text-align: center;
