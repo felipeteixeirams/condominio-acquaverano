@@ -3,9 +3,11 @@ html {
     --white: #fff;
     --red: #ff0202;
     --ciano: #144e4b;
+    --ciano-medium: #216966;
 
     --grey: #888888;
     --grey-dark: #333333;
+    --grey-medium: #555555;
     --grey-light: #eeeeee;
 
     font-size: 62.5%

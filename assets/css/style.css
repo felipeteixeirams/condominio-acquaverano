@@ -8,8 +8,6 @@
 }
 
 main.content{
-    color: var(--grey-dark);
-    font-size: 1.2em;
     text-align: center;
 }
 
@@ -17,7 +15,12 @@ main.content{
 * Logo
 */
 .logo img{
-    width: 17rem;
+    width: 20rem;
+}
+
+.logo header,
+.contact #title{
+    margin: 1rem 0rem;
 }
 
 /**********************
@@ -27,21 +30,27 @@ main.content{
     font-style: normal;
 }
 
-a#titulo {
-    font-style: normal;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 35px;
-    line-height: 1.4;
-    color: var(--ciano);
-    transition: 0.5s
+.contact #title {
+    font-size: 3rem;
+    color: var(--grey-medium);
+    font-weight: bolder;
+
+    transition: .6s;
 }
+.contact #title:hover{
+    font-size: 3.2rem;
+    color: var(--ciano-medium);
+}
+
 
 /**********************
 * Map
 */
+
 .map {
-    width: 800px;
+    margin: 2rem auto;
+    
+    width: 80rem;
     height: 30vh;
 }
 
