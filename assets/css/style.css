@@ -11,27 +11,37 @@ main.content{
     text-align: center;
 }
 
+
 /**********************
 * Logo
 */
-.logo img{
+
+header.logo{
+    margin: 1rem auto;
     width: 20rem;
+    height: 20rem;
 }
 
-.logo header,
-.contact #title{
-    margin: 1rem 0rem;
+header.logo img{
+    width: 100%;
+    height: 100%;
 }
+
 
 /**********************
 * Title
 */
+
+section.contact a#title{
+    font-size: clamp(35px, 3rem, 5vw);
+    margin: 1rem 0rem;
+}
+
 .contact address{
     font-style: normal;
 }
 
 .contact #title {
-    font-size: 3rem;
     color: var(--grey-medium);
     font-weight: bolder;
 
@@ -47,40 +57,46 @@ main.content{
 * Map
 */
 
-.map {
+section.map {
     margin: 2rem auto;
     
     width: 80rem;
     height: 30vh;
 }
 
+section.map iframe {
+    box-shadow: 6px 5px 5px var(--grey);
+    border-radius: 5px
+}
+
+
 /**********************
 * Socials links
 */
-div.social-links li {
-    margin-left: 5px;
-    margin-right: 5px
-}
 
-div.social-links li,
-div.social-links ul{
-    display: flex;
-    align-items: center;
-    width: 40px
-}
-
-div.social-links a, img {
-    width: 100%;
+section.social-links {
     height: 100%;
 }
 
-em {
-    font-style: normal;
+section.social-links ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0;
 }
 
-div.social-links img {
+section.social-links li{
+    width: 4rem;
+    margin: 0 .5rem;
+    list-style-type: none;
+}
+
+section.social-links img,
+section.social-links a {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 
@@ -89,18 +105,15 @@ div.social-links img {
 */
 
 footer {
-    margin: 30px 25px 0px 25px;
+    width: 80rem;
+    margin: 3rem auto;
 
     border-top: 2px solid var(--grey-light);
 }
 
 
-footer .copyright,
-footer .copyright a{
+footer div.copyright,
+footer div.copyright a{
     color: var(--grey);
-}
-
-iframe {
-    box-shadow: 6px 5px 5px var(--grey);
-    border-radius: 5px
+    text-align: center;
 }

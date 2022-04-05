@@ -18,6 +18,8 @@ html {
 body {
     display: flex;
     height: 100vh;
+    padding: 0 1rem;
+
     background: var(--white);
 }
 
@@ -25,7 +27,7 @@ body,
 button,
 input,
 textarea {
-    font-size: clamp(16px, 1.6rem, 2vw);
+    font-size: clamp(30px, 1.7rem, 2vw);
     line-height: 1.3em;
 
     font-family: "Segoe UI", Helvetica, sans-serif;
