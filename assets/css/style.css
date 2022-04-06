@@ -2,8 +2,8 @@
 * All Content
 */
 
-.bg-page {
-    background: var(--white);
+#body {
+    transition: .6s;
 }
 
 .container {
@@ -57,6 +57,7 @@ section.contact a#title{
 }
 
 #contact {
+    color: var(--grey-dark);
     transition: .6s;
 }
 
