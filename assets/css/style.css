@@ -2,6 +2,10 @@
 * All Content
 */
 
+.bg-page {
+    background: var(--white);
+}
+
 .container {
     width: 100%;
     margin: 0;
@@ -33,7 +37,7 @@ header.logo img{
 */
 
 section.contact a#title{
-    font-size: clamp(35px, 3rem, 5vw);
+    font-size: clamp(30px, 2.8rem, 5vw);
     margin: 1rem 0rem;
 }
 
@@ -52,6 +56,9 @@ section.contact a#title{
     color: var(--ciano-medium);
 }
 
+#contact {
+    transition: .6s;
+}
 
 /**********************
 * Map
@@ -116,4 +123,6 @@ footer div.copyright,
 footer div.copyright a{
     color: var(--grey);
     text-align: center;
+
+    transition: .6s;
 }

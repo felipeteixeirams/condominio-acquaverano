@@ -18,7 +18,7 @@
 
 </head>
 
-<body>
+<body id="body">
 
     <div class="container">
 
@@ -31,14 +31,14 @@
             <section class="contact">
 
                 <a id="title" href="mailto:contato@acquaverano.com.br">contato@acquaverano.com.br</a>
-                <address class="contato text-center">
+                <address id="contact" class="contato text-center">
                     Av. Rachid Neder, 16, Monte Castello, Bairro São Francisco CEP 79010-170 | Campo Grande | MS |
                     Brasil
                 </address>
 
             </section>
 
-            <section class="map">
+            <section class="map" onmouseenter="changeBgDark()" onmouseleave="changeBgWhite()">
 
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7160.185260577145!2d-54.62072763717065!3d-20.440664100919314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9486e7d272f1af9b%3A0xba3be14997f02694!2sAcqua%20Verano!5e0!3m2!1spt-BR!2sbr!4v1590367834550!5m2!1spt-BR!2sbr"
@@ -66,7 +66,7 @@
         </main>
 
         <footer>
-            <div class="copyright">
+            <div id="copyright" class="copyright">
                 <p>Copyright © 2020 <strong><a href="http://www.avianti.com.br/" target="_blank">Avianti</a></strong> |
                     Todos os direitos reservados | All rights
                     reserved Domínio hospedado por Avianti | Consultoria & Assessoria: <strong><a
@@ -75,6 +75,8 @@
         </footer>
 
     </div>
+
+    <script src="assets/scripts/background.js"></script>
 
 </body>
 
